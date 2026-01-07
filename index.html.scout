@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scout Agent Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .test-section {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🤖 My Scout Agent Test Page</h1>
+        <p>Testing my Scout agent integration</p>
+    </div>
+
+    <div class="test-section">
+        <h2>About This Test</h2>
+        <p>This page is testing the Scout agent embed. The chatbot should appear in the bottom-right corner as a floating button.</p>
+        <p><strong>Try clicking the chat button to interact with your agent!</strong></p>
+    </div>
+
+    <div class="test-section">
+        <h2>Test Content</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is just some test content to make the page look more realistic while testing the Scout agent integration.</p>
+        <ul>
+            <li>Test feature 1</li>
+            <li>Test feature 2</li>
+            <li>Test feature 3</li>
+        </ul>
+    </div>
+
+    <!-- Your Scout Agent Embed Code -->
+    <scout-copilot copilot_id="copilot_01942cf0-7ac7-8107-845e-d4a59be6dd1e"></scout-copilot>
+    <script type="module" src="https://copilot.scoutos.com/copilot.js"></script>
+</body>
+</html>
